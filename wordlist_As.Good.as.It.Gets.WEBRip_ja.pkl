@@ -1,0 +1,22 @@
+{
+    "die": "死ぬ",
+    "son": "息子",
+    "mention": "言及する",
+    "eat": "食べる",
+    "spit": "唾を吐く",
+    "waiting": "待っている",
+    "hug": "抱きしめる",
+    "Go": "行く",
+    "Carol": "人名",
+    "Meal": "食事",
+    "Pay": "支払う",
+    "Wait": "待つ",
+    "Handle": "扱う、処理する",
+    "Get out": "出て行く",
+    "Immediately": "直ちに",
+    "Trouble": "問題、トラブル",
+    "Sexist": "性差別的な",
+    "Totally": "完全に、全く",
+    "Home": "家、住居",
+    "Scootch over": "横に点滅"
+}

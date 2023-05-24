@@ -1,0 +1,23 @@
+{
+    "picture": "Bild/Foto",
+    "celebrity": "Berühmtheit/Star",
+    "served": "bedient",
+    "exciting": "aufregend/spannend",
+    "nuts": "verrückt",
+    "charter": "chartern/mieten",
+    "plane": "Flugzeug",
+    "dollars": "Dollar",
+    "pretty": "hübsch/schön",
+    "pantsuit": "Hosenanzug",
+    "spot": "Platz/Stelle",
+    "bunch": "Haufen, Menge",
+    "cops": "Polizisten",
+    "great": "großartig, toll",
+    "shot": "Aufnahme, Foto",
+    "bathroom": "Badezimmer, Toilette",
+    "evacuate": "evakuieren, räumen",
+    "premises": "Räumlichkeiten, Gelände",
+    "lawsuit": "Klage, Prozess",
+    "representatives": "Vertreter, Repräsentanten",
+    "discreet": "diskret, unauffällig"
+}
