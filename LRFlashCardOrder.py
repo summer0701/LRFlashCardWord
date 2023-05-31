@@ -13,7 +13,7 @@ def get_file_list(path):
 
 files = get_file_list(current_path)
 
-dramaList = []
+dramaList = {}
 dramaDetail = {}
 for text in files:
     start_pattern = "wordlist_"
@@ -23,7 +23,11 @@ for text in files:
 
     dramaName =text[start_index:end_index].rsplit('E', 1)[0]
     if "RL_"+dramaName not in dramaList:
-        dramaList.append("RL_"+dramaName)
+        count = 0
+        for file_name in files:
+            if dramaName in file_name and 'ko' in file_name:
+                count += 1
+        dramaList["RL_"+dramaName]=count
 
     if dramaName not in dramaDetail:
         dramaDetail[dramaName] = []
