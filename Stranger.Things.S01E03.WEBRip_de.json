@@ -1,0 +1,56 @@
+[
+    {
+        "start": 417125,
+        "end": 423798,
+        "end_index": 421629,
+        "de": {
+            "qoute": "Mom! Du brauchst nicht mehr Lampen. Du musst damit aufhören! Will… Will hat sich nur verirrt, ok?"
+        },
+        "qoute": "You don't need more lamps. You need to stop this, okay? He is just lost."
+    },
+    {
+        "start": 493409,
+        "end": 497747,
+        "end_index": 494494,
+        "de": {
+            "qoute": "Das ist ein Märchen. Aber falls da draußen irgendwas ist, schieß ich ihm ins Auge."
+        },
+        "qoute": "It's made up. But if there is something out there, I'm gonna shoot it in the eye."
+    },
+    {
+        "start": 516349,
+        "end": 521062,
+        "end_index": 518935,
+        "de": {
+            "qoute": "Wir brauchen Energie für unsere Reise, um durchzuhalten. Und überhaupt: "
+        },
+        "qoute": "We need energy for our travels. For stamina. And besides, why do we even need weapons anyway?"
+    },
+    {
+        "start": 521145,
+        "end": 527777,
+        "end_index": 525107,
+        "de": {
+            "qoute": "Sie hat eine Tür zugemacht! Rein telepathisch! Willst du mich verarschen? Das ist doch krank!"
+        },
+        "qoute": "We have her. She shut one door! With her mind! Are you kidding me? That's insane!"
+    },
+    {
+        "start": 527860,
+        "end": 536452,
+        "end_index": 532782,
+        "de": {
+            "qoute": "Wer weiß, was sie noch für coole Sachen machen kann? Also… Zum Beispiel. "
+        },
+        "qoute": "Imagine all the other cool stuff she could do. Like. I bet. that she could make this fly!"
+    },
+    {
+        "start": 1849722,
+        "end": 1855770,
+        "end_index": 1853726,
+        "de": {
+            "qoute": "Was ist los? Ah! Die weibliche Hauptrolle. Was? Tja. Der Spanner hat uns gestern nachgestellt. "
+        },
+        "qoute": "What's going on? Here's the starring lady. What? This creep was spying on us last night."
+    }
+]

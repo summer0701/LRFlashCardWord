@@ -17,7 +17,7 @@ dramaList = {}
 dramaDetail = {}
 for text in files:
     start_pattern = "wordlist_"
-    if  start_pattern not in files:
+    if start_pattern not in text:
         continue
 
 
