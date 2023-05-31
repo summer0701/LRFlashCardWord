@@ -2,11 +2,11 @@ import os
 import json
 
 current_path = "D:\\LRFlashCardWord"  # 현재 작업 디렉토리를 가져옴
-dListPath = "\\dramaList.json"
+dListPath = "dramaList.json"
 def get_file_list(path):
     file_list = []
     for file in os.listdir(path):
-        if file.endswith('.json'):
+        if "RL_" not in file and file.endswith('.json'):
             file_list.append(file)
     return file_list
 
@@ -30,10 +30,10 @@ for text in files:
     if text[start_index:end_index] not in dramaDetail[dramaName]:
         dramaDetail[dramaName].append(text[start_index:end_index])
     # 파일 저장
-    with open(current_path+dListPath, 'w') as json_file:
+    with open(current_path+'\\'+"RL_"+dListPath, 'w') as json_file:
         json.dump(dramaList, json_file)
     for dd in dramaDetail:
-        with open(current_path + '\\' + dd + '.json', 'w') as json_file:
+        with open(current_path + '\\' + "RL_"+dd + '.json', 'w') as json_file:
             json.dump(dramaDetail[dd], json_file)
 
 
