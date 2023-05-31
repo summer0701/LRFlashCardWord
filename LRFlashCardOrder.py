@@ -1,6 +1,6 @@
 import os
 import json
-
+import time
 current_path = "D:\\LRFlashCardWord"  # 현재 작업 디렉토리를 가져옴
 dListPath = "dramaList.json"
 def get_file_list(path):
@@ -24,10 +24,15 @@ for text in files:
     dramaName =text[start_index:end_index].rsplit('E', 1)[0]
     if "RL_"+dramaName not in dramaList:
         count = 0
+        saved_t =-1
         for file_name in files:
             if dramaName in file_name and 'ko' in file_name:
                 count += 1
-        dramaList["RL_"+dramaName]=count
+                t = os.path.getmtime(text)
+
+                if saved_t < t:
+                    saved_t = t
+        dramaList["RL_"+dramaName]={"count":count,"time":time.ctime(saved_t)}
 
     if dramaName not in dramaDetail:
         dramaDetail[dramaName] = []
