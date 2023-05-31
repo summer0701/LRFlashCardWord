@@ -17,12 +17,16 @@ dramaList = {}
 dramaDetail = {}
 for text in files:
     start_pattern = "wordlist_"
+    if  start_pattern not in files:
+        continue
+
+
     end_pattern = ".WEBRip"
     start_index = text.find(start_pattern) + len(start_pattern)
     end_index = text.find(end_pattern)
 
     dramaName =text[start_index:end_index].rsplit('E', 1)[0]
-    if "RL_"+dramaName not in dramaList and "wordlist_" in dramaList:
+    if "RL_"+dramaName not in dramaList:
         count = 0
         saved_t =-1
         for file_name in files:
