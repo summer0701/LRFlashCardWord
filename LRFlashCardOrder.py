@@ -22,7 +22,7 @@ for text in files:
     end_index = text.find(end_pattern)
 
     dramaName =text[start_index:end_index].rsplit('E', 1)[0]
-    if "RL_"+dramaName not in dramaList:
+    if "RL_"+dramaName not in dramaList and "wordlist_" in dramaList:
         count = 0
         saved_t =-1
         for file_name in files:
