@@ -22,7 +22,7 @@ for text in files:
     end_index = text.find(end_pattern)
 
     dramaName =text[start_index:end_index].rsplit('E', 1)[0]
-    if dramaName not in dramaList:
+    if "RL_"+dramaName not in dramaList:
         dramaList.append("RL_"+dramaName)
 
     if dramaName not in dramaDetail:
