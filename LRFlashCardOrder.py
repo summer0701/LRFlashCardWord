@@ -23,12 +23,12 @@ for text in files:
 
     dramaName =text[start_index:end_index].rsplit('E', 1)[0]
     if dramaName not in dramaList:
-        dramaList.append(dramaName)
+        dramaList.append("RL_"+dramaName)
 
     if dramaName not in dramaDetail:
         dramaDetail[dramaName] = []
     if text[start_index:end_index] not in dramaDetail[dramaName]:
-        dramaDetail[dramaName].append("RL_"+text[start_index:end_index])
+        dramaDetail[dramaName].append(text[start_index:end_index])
     # 파일 저장
     with open(current_path+'\\'+"RL_"+dListPath, 'w') as json_file:
         json.dump(dramaList, json_file)
