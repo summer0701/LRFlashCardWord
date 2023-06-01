@@ -12,6 +12,9 @@ def get_file_list(path):
 
 
 files = get_file_list(current_path)
+#
+# filtered_file_list = [file_name for file_name in files if file_name.lower().endswith('.json') and 'wordlist' not in file_name.lower() and 'RL_' not in file_name.lower()]
+# sorted_file_list = sorted(filtered_file_list, key=lambda x: os.path.getmtime(os.path.join(current_path, x)),reverse=True)
 
 dramaList = {}
 dramaDetail = {}

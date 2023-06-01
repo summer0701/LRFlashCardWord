@@ -1,0 +1,56 @@
+[
+    {
+        "start": 645227,
+        "end": 651942,
+        "end_index": 649649,
+        "es": {
+            "qoute": "¿Hablas del funeral?  Cambio.  No, no de su funeral.  ¡Al diablo su funeral!  ¿Qué? Solo ven de inmediato. Y trae a Dustin. "
+        },
+        "qoute": "You mean about his funeral? Over. No, not his funeral. Screw his funeral! What? Just get over here stat. And bring Dustin."
+    },
+    {
+        "start": 893559,
+        "end": 897771,
+        "end_index": 896061,
+        "es": {
+            "qoute": " ¿Enloquecer? ¿De qué?  Hay que lidiar con esto. ¡Tenemos que afrontar el funeral! "
+        },
+        "qoute": "Shut down? What. We have to deal with this, Mom. We have to deal with the funeral!"
+    },
+    {
+        "start": 897855,
+        "end": 904445,
+        "end_index": 902401,
+        "es": {
+            "qoute": "¿El funeral? ¿De… de quién? ¿De esa cosa que tienen ahí? A ver si entiendo."
+        },
+        "qoute": "The funeral? For. for who? For that thing back there? Okay, let me get this straight."
+    },
+    {
+        "start": 904528,
+        "end": 909617,
+        "end_index": 907781,
+        "es": {
+            "qoute": "Ese no es el cuerpo de Will, porque está en las luces, ¿no? ¿Y hay un monstruo en la pared? "
+        },
+        "qoute": "Will, that's not his body, because he's in the lights, right? And there's a monster in the wall?"
+    },
+    {
+        "start": 909700,
+        "end": 917499,
+        "end_index": 915706,
+        "es": {
+            "qoute": "¿Te estás escuchando? Sé que suena a una locura.  ¡Sueno como si estuviera loca!  ¡Sí! "
+        },
+        "qoute": "Do you even hear yourself? I know it sounds crazy. I sound crazy! Yeah. You think I don't know that?"
+    },
+    {
+        "start": 1005212,
+        "end": 1010342,
+        "end_index": 1008132,
+        "es": {
+            "qoute": "¿Recuerdas cuando Will se cayó de su bicicleta y se rompió el dedo? Eso me sonó muy parecido."
+        },
+        "qoute": "Do you remember when Will fell off his bike and broke his finger? He sounded a lot like that."
+    }
+]
