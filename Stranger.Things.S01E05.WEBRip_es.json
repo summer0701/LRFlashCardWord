@@ -3,8 +3,8 @@
         "start": 325033,
         "end": 330830,
         "end_index": 328870,
-        "ko": {
-            "qoute": "하지만 윌이 거기 있었다면? 단지 우리가 못 본 거라면? 윌이 건너편에 있었다면? "
+        "es": {
+            "qoute": "¿Pero qué pasaría si él estuviera allí? ¿Y si simplemente no pudiéramos verlo? ¿Y si estuviera en el otro lado?"
         },
         "qoute": "But what if he was there? What if we just couldn't see him? What if he was on the other side?"
     },
@@ -12,8 +12,8 @@
         "start": 836126,
         "end": 842049,
         "end_index": 840381,
-        "ko": {
-            "qoute": "그냥 악당들보다 한 수 앞서면 되잖아? 보통은 그래요. "
+        "es": {
+            "qoute": "¿No puede solo… ya sabes, ser más astuto que los malos? Casi todo el tiempo lo hace. "
         },
         "qoute": "Why can't he just, you know, outsmart the bad guys? Most of the time, yeah, totally."
     },
@@ -21,8 +21,8 @@
         "start": 842132,
         "end": 850099,
         "end_index": 848138,
-        "ko": {
-            "qoute": "하지만 가끔은 악당들도 똑똑하게 굴거든요. 아시죠? 그래. 그래서 불덩이가 필요한 거야? "
+        "es": {
+            "qoute": "Pero, a veces, los malos son astutos. ¿Sabes? Sí. Así que necesita los bólidos. "
         },
         "qoute": "But. sometimes the bad guys are smart, too. You know? Yeah. So he needs the fireballs?"
     },
@@ -30,8 +30,8 @@
         "start": 1135300,
         "end": 1141473,
         "end_index": 1138554,
-        "ko": {
-            "qoute": " 여쭤볼 게 있어서요  좀 많아요. '코스모스'에서 칼 세이건이 다른 차원 얘기를 하잖아요? "
+        "es": {
+            "qoute": "Tenemos algunas preguntas. Muchas preguntas. ¿Sabes cómo en Cosmos, Carl Sagan habla de otras dimensiones?"
         },
         "qoute": "We have some questions. A lot of questions. So, you know how in Cosmos, Carl Sagan talks about other dimensions?"
     },
@@ -39,8 +39,8 @@
         "start": 1141557,
         "end": 1148105,
         "end_index": 1145519,
-        "ko": {
-            "qoute": "우리 세계 너머에요? 그래, 이론상으로. 네, 이론상으로요. 그럼 이론상 거기로 어떻게 이동하죠? "
+        "es": {
+            "qoute": " ¿Más allá de nuestro mundo?  Sí. En teoría. Claro, en teoría. Y, en teoría, ¿cómo viajamos allá? "
         },
         "qoute": "Like, beyond our world? Yeah, sure. Theoretically. Right, theoretically. So, theoretically, how do we travel there?"
     },
@@ -48,8 +48,8 @@
         "start": 1227768,
         "end": 1233607,
         "end_index": 1230854,
-        "ko": {
-            "qoute": "그럼 우린 못 가나요? 그래. 곡예사가 뒤집힌 곳으로 갈 방법은 전혀 없어요? "
+        "es": {
+            "qoute": " Así que ¿no podemos estar al revés?  No. ¿Hay alguna forma de que el acróbata se ponga al revés? "
         },
         "qoute": "So we can't go upside down? No. Well, is there any way for the acrobat to get to the Upside Down?"
     }
