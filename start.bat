@@ -1,7 +1,7 @@
 echo "activate"
 call D:\tubetoppt\venv\Scripts\activate.bat
 echo "retrive"
-D:\tubetoppt\venv\Scripts\python LRFlashCardOrder.py
+D:\tubetoppt\venv\Scripts\python D:\LRFlashCardWord\LRFlashCardOrder.py
 echo "add"
  git add .
 echo "commit" 
