@@ -1,25 +1,25 @@
 [
     {
         "qoute": "The Popocatepetl volcano in Mexico has been erupting, prompting officials to raise the alert level to yellow.\n",
-        "ko": {
+        "es": {
             "qoute": "El volcán Popocatépetl en México ha estado en erupción, lo que ha llevado a las autoridades a elevar el nivel de alerta a amarillo.\n"
         }
     },
     {
         "qoute": "Millions of residents living near the volcano may need to consider evacuation if it erupts.\n",
-        "ko": {
+        "es": {
             "qoute": "Millones de residentes que viven cerca del volcán pueden tener que considerar la evacuación si entra en erupción.\n"
         }
     },
     {
         "qoute": "Ash emissions have caused air quality issues, leading to the closure of schools, parks, and flight delays.\n",
-        "ko": {
+        "es": {
             "qoute": "Las emisiones de ceniza han causado problemas de calidad del aire, lo que ha llevado al cierre de escuelas, parques y retrasos en los vuelos.\n"
         }
     },
     {
         "qoute": "Officials are closely monitoring the volcano but are unsure when a major eruption might occur.\n",
-        "ko": {
+        "es": {
             "qoute": "Las autoridades están monitoreando de cerca el volcán, pero no están seguras de cuándo podría ocurrir una erupción importante."
         }
     }
