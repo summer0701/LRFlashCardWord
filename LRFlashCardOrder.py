@@ -6,7 +6,7 @@ dListPath = "dramaList.json"
 def get_file_list(path):
     file_list = []
     for file in os.listdir(path):
-        if "RL_" not in file and file.endswith('.json'):
+        if "RL_" not in file and file.endswith('.json') and "WEBRip" in file:
             file_list.append(file)
     return file_list
 
