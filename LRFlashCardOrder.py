@@ -23,34 +23,36 @@ for text in files:
     if start_pattern not in text:
         continue
 
+    if "WEBRip" in text:
+        end_pattern = ".WEBRip"
+        start_index = text.find(start_pattern) + len(start_pattern)
+        end_index = text.find(end_pattern)
+        dramaName = text[start_index:end_index].rsplit('E', 1)[0]
 
-    end_pattern = ".WEBRip"
-    start_index = text.find(start_pattern) + len(start_pattern)
-    end_index = text.find(end_pattern)
 
-    dramaName =text[start_index:end_index].rsplit('E', 1)[0]
-    if "RL_"+dramaName not in dramaList:
-        count = 0
-        saved_t =-1
-        for file_name in files:
-            if dramaName in file_name and 'ko' in file_name:
-                count += 1
-                t = os.path.getmtime(text)
 
-                if saved_t < t:
-                    saved_t = t
-        dramaList["RL_"+dramaName]={"count":count,"time":time.ctime(saved_t)}
+        if "RL_"+dramaName not in dramaList:
+            count = 0
+            saved_t =-1
+            for file_name in files:
+                if dramaName in file_name and 'ko' in file_name:
+                    count += 1
+                    t = os.path.getmtime(text)
 
-    if dramaName not in dramaDetail:
-        dramaDetail[dramaName] = []
-    if text[start_index:end_index] not in dramaDetail[dramaName]:
-        dramaDetail[dramaName].append(text[start_index:end_index])
-    # 파일 저장
-    with open(current_path+'\\'+"RL_"+dListPath, 'w') as json_file:
-        json.dump(dramaList, json_file)
-    for dd in dramaDetail:
-        with open(current_path + '\\' + "RL_"+dd + '.json', 'w') as json_file:
-            json.dump(dramaDetail[dd], json_file)
+                    if saved_t < t:
+                        saved_t = t
+            dramaList["RL_"+dramaName]={"count":count,"time":time.ctime(saved_t)}
+
+        if dramaName not in dramaDetail:
+            dramaDetail[dramaName] = []
+        if text[start_index:end_index] not in dramaDetail[dramaName]:
+            dramaDetail[dramaName].append(text[start_index:end_index])
+        # 파일 저장
+        with open(current_path+'\\'+"RL_"+dListPath, 'w') as json_file:
+            json.dump(dramaList, json_file)
+        for dd in dramaDetail:
+            with open(current_path + '\\' + "RL_"+dd + '.json', 'w') as json_file:
+                json.dump(dramaDetail[dd], json_file)
 
 
 print('writing list json completed ')
