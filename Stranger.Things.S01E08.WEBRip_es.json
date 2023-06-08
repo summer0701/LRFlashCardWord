@@ -1,0 +1,56 @@
+[
+    {
+        "start": 475766,
+        "end": 483316,
+        "end_index": 480730,
+        "es": {
+            "qoute": "¿Quieres a Will de vuelta? Pues este lugar no tuvo nada que ver. Es el trato. "
+        },
+        "qoute": "You want Will back? This place had nothing to do with it. That's the deal. You got it?"
+    },
+    {
+        "start": 492700,
+        "end": 500833,
+        "end_index": 499707,
+        "es": {
+            "qoute": "¿Qué es esto? Protección. La atmósfera es tóxica. Pero si mi hijo está ahí, él… Póntelo. "
+        },
+        "qoute": "What is this? Protection. The atmosphere is toxic. But my son's in there. He. Put it on."
+    },
+    {
+        "start": 774607,
+        "end": 779737,
+        "end_index": 778360,
+        "es": {
+            "qoute": "No podemos esperar. Mike, en caso de que lo olvidaras, somos fugitivos. Los malos aún nos buscan. "
+        },
+        "qoute": "We can't just wait around. Mike, in case you forgot, we're still fugitives. The bad men are still looking for us."
+    },
+    {
+        "start": 779820,
+        "end": 783866,
+        "end_index": 782865,
+        "es": {
+            "qoute": " Ni sabemos dónde está tu hermana.  Ce los encontrará. Mike, mírala. "
+        },
+        "qoute": "Yeah, and we don't even know where your sister is. El can find them. Mike, look at her."
+    },
+    {
+        "start": 1432848,
+        "end": 1438186,
+        "end_index": 1436726,
+        "es": {
+            "qoute": "¡La encontré! Sabía que las almacenaba.  Lo sabía.  ¡Sí! Siempre nos engaña y dice que se acabaron. Miente con descaro. "
+        },
+        "qoute": "Found it! I knew she was hoarding it. I knew it. Yeah. Always lying, saying she's out."
+    },
+    {
+        "start": 1678093,
+        "end": 1683598,
+        "end_index": 1681930,
+        "es": {
+            "qoute": " Está mal.  Está agotada. Es que no despierta. ¡Ce! ¡Ce! ¡Ce! "
+        },
+        "qoute": "Something's wrong. She's just drained. No, no, no, she won't wake up. El! El! El!"
+    }
+]

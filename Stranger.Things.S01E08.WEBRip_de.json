@@ -1,0 +1,56 @@
+[
+    {
+        "start": 475766,
+        "end": 483316,
+        "end_index": 480730,
+        "de": {
+            "qoute": "Du willst Will zurück? Diese Einrichtung hatte nichts damit zu tun. Das ist der Deal. Verstanden? "
+        },
+        "qoute": "You want Will back? This place had nothing to do with it. That's the deal. You got it?"
+    },
+    {
+        "start": 492700,
+        "end": 500833,
+        "end_index": 499707,
+        "de": {
+            "qoute": "Was ist das? Schutzanzüge. Die Atmosphäre ist toxisch. Aber mein Sohn… Er ist da drin. Zieh's an. "
+        },
+        "qoute": "What is this? Protection. The atmosphere is toxic. But my son's in there. He. Put it on."
+    },
+    {
+        "start": 774607,
+        "end": 779737,
+        "end_index": 778360,
+        "de": {
+            "qoute": ""
+        },
+        "qoute": "We can't just wait around. Mike, in case you forgot, we're still fugitives. The bad men are still looking for us."
+    },
+    {
+        "start": 779820,
+        "end": 783866,
+        "end_index": 782865,
+        "de": {
+            "qoute": "Und wir wissen nicht mal, wo Nancy ist. Elfi kann sie finden. Guck sie dir an! "
+        },
+        "qoute": "Yeah, and we don't even know where your sister is. El can find them. Mike, look at her."
+    },
+    {
+        "start": 1432848,
+        "end": 1438186,
+        "end_index": 1436726,
+        "de": {
+            "qoute": "Gefunden! Ich wusste, dass die es hortet. Ich wusste es. Ja. Sie lügt, wenn sie sagt, sie hat keine mehr. "
+        },
+        "qoute": "Found it! I knew she was hoarding it. I knew it. Yeah. Always lying, saying she's out."
+    },
+    {
+        "start": 1678093,
+        "end": 1683598,
+        "end_index": 1681930,
+        "de": {
+            "qoute": "Da stimmt was nicht. Erschöpft! Nein, nein, nein. Sie wacht nicht auf. Elfi! Elfi! "
+        },
+        "qoute": "Something's wrong. She's just drained. No, no, no, she won't wake up. El! El! El!"
+    }
+]
